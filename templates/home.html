@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>
+            Power Consumption
+        </title>
+    </head>
+    <body>
+        <form method="post" action="predict">
+            <label for="Temperature">Temperature:</label>
+            <input type="text" name="Temperature" size="50" placeholder="Enter Temperature in Celsius">
+            <br>
+            <br>
+            <label for="Humidity">Humidity:</label>
+            <input type="text" name="Humidity" size="50" placeholder="Enter Humidity">
+            <br>
+            <br>
+            <label for="wind_speed">Wind Speed:</label>
+            <input type="text" name="wind_speed" size="50" placeholder="Enter Wind Speed">
+            <br>
+            <br>
+            <label for="general_diffusion_flow">General Diffusion Flow:</label>
+            <input type="text" name="general_diffusion_flow" size="50" placeholder="Enter General Diffusion Flow">
+            <br>
+            <br>
+            <label for="diffuse_flow">Diffusion Flow:</label>
+            <input type="text" name="diffuse_flow" size="50" placeholder="Enter Diffusion Flow">
+            <br>
+            <br>
+            <label for="air_quality_index">Air Quality Index:</label>
+            <input type="text" name="air_quality_index" size="50" placeholder="Enter Air Quality Index">
+            <br>
+            <br>
+            <label for="cloudiness">Cloudiness:</label>
+            <select name="cloudiness">
+                <option value="0">0</option>
+                <option value="1">1</option>
+            </select> 
+            <br>
+            <br>    
+            <button type="submit">Predict</button>
+        </form>
+    </body>
+</html>
